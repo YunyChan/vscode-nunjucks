@@ -67,6 +67,30 @@
 
       <dict>
         <key>begin</key>
+        <string>\[\[</string>
+        <key>captures</key>
+        <dict>
+          <key>0</key>
+          <dict>
+            <key>name</key>
+            <string>entity.tag.tagbraces.nunjucks</string>
+          </dict>
+        </dict>
+        <key>end</key>
+        <string>\]\]</string>
+        <key>name</key>
+        <string>storage.type.variable.nunjucks</string>
+        <key>patterns</key>
+        <array>
+          <dict>
+            <key>include</key>
+            <string>#template_filter</string>
+          </dict>
+        </array>
+      </dict>
+
+      <dict>
+        <key>begin</key>
           <string>{%-|{%</string>
         <key>captures</key>
         <dict>
@@ -367,6 +391,29 @@
               </dict>
               <dict>
                 <key>begin</key>
+                <string>\[\[</string>
+                <key>captures</key>
+                <dict>
+                  <key>0</key>
+                  <dict>
+                    <key>name</key>
+                    <string>entity.tag.tagbraces.nunjucks</string>
+                  </dict>
+                </dict>
+                <key>end</key>
+                <string>\]\]</string>
+                <key>name</key>
+                <string>storage.type.variable.nunjucks</string>
+                <key>patterns</key>
+                <array>
+                  <dict>
+                    <key>include</key>
+                    <string>#template_filter</string>
+                  </dict>
+                </array>
+              </dict>
+              <dict>
+                <key>begin</key>
                 <string>{%</string>
                 <key>captures</key>
                 <dict>
@@ -488,6 +535,29 @@
                 </dict>
                 <key>end</key>
                 <string>}}</string>
+                <key>name</key>
+                <string>storage.type.variable.nunjucks</string>
+                <key>patterns</key>
+                <array>
+                  <dict>
+                    <key>include</key>
+                    <string>#template_filter</string>
+                  </dict>
+                </array>
+              </dict>
+              <dict>
+                <key>begin</key>
+                <string>\[\[</string>
+                <key>captures</key>
+                <dict>
+                  <key>0</key>
+                  <dict>
+                    <key>name</key>
+                    <string>entity.tag.tagbraces.nunjucks</string>
+                  </dict>
+                </dict>
+                <key>end</key>
+                <string>\]\]</string>
                 <key>name</key>
                 <string>storage.type.variable.nunjucks</string>
                 <key>patterns</key>
